@@ -18,7 +18,7 @@ public class IllagerAirhorn implements ModInitializer {
 	}
 
 	public static void airhorn() throws UnsupportedAudioFileException, IOException, LineUnavailableException {
-		InputStream input = IllagerAirhorn.class.getClassLoader().getResourceAsStream("airhorn.wav");
+		InputStream input = IllagerAirhorn.class.getClassLoader().getResourceAsStream("hey.wav");
 		assert input != null;
 
 		InputStream buffered = new BufferedInputStream(input);
